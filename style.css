@@ -1,0 +1,25 @@
+h1{
+    color: aqua;
+}
+
+video{
+   border: 5px solid black;
+    border-radius: 0 100px 0 100px;
+}
+
+ul{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mensagem {
+    display: none;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.container:hover .mensagem {
+    display: block;
+}
